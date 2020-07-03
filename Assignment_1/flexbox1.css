@@ -1,0 +1,47 @@
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .head {
+            background-color:rgb(118, 247, 12);
+            height: 80px;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row-reverse;
+        }
+
+        .article {
+            text-align: center;
+            height: 450px;
+            flex: 70%;
+        }
+
+        .aside {
+            background-color:rgb(245, 244, 244);
+            text-align: center;
+            height: 450px;
+            flex: 15%;
+        }
+
+        .nav {
+            background-color:rgb(189, 217, 226);
+            text-align: center;
+            height: 450px;
+            flex: 15%;
+        }
+
+        .foot {
+            background-color:rgb(118, 247, 12);
+            height: 80px;
+            text-align: center;
+        }
+
+        @media screen and (max-width: 900px) {
+            .container {
+                flex-direction: column;
+            }
+        }
